@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import test from '../style/test.svg';
+import test from '../styles/test.svg';
 
 const Button = styled.button`
     background: url(${test}) no-repeat;
