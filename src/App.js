@@ -1,5 +1,4 @@
 import React from 'react';
-import Button from './component/button'
 import GlobalStyles from './styles/GlobalStyle';
 import styeld from 'styled-components';
 import Header from './component/Header'
@@ -9,23 +8,24 @@ import Routes from './component/Routes';
 const Wrapper = styeld.div`
   display:flex;
   flex-direction: column;
+  margin: 0 auto;
 `;
 
 function App() {
   return (
-    <Wrapper>
+    <>
       <GlobalStyles/>
       <Router>
         <>
-
-          <Header/>
-          <Routes />
-
+          <Wrapper>
+            <Header/>
+            <Routes />
+          </Wrapper>
         </>
       </Router>
       
 
-    </Wrapper>
+    </>
   );
 }
 
