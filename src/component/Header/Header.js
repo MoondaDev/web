@@ -3,10 +3,9 @@ import { Link } from "react-router-dom";
 import styled from 'styled-components';
 import Logo from '../../styles/images/Logo.png';
 
-const Wrapper = styled.header`
+const Wrapper = styled.div`
   width: 100%;
   border: 0;
-  position: fixed;
   top: 0;
   left: 0;
   background-color: white;
