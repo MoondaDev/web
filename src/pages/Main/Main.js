@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Banner from '../../component/Banner'
+import Menu from '../../component/Menu'
 
 const Wrapper = styled.div`
     display:flex;
@@ -12,6 +13,8 @@ export default function Main() {
     return (
         <Wrapper>
             <Banner />
+           
+            <Menu />
         </Wrapper>
     )
 }
