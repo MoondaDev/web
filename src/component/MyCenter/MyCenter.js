@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import test from '../../styles/images/centerTest.png';
-import lasttest from '../../styles/images/lastTest.png';
+
 
 const Wrapper = styled.div`
     display:flex;
